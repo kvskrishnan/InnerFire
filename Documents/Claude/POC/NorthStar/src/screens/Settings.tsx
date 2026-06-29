@@ -339,7 +339,7 @@ export default function Settings() {
           </button>
         </div>
         <p className="text-[#6b6880] text-xs px-1 -mt-3">
-          If no notification appears, open iOS Settings → NorthStar → Notifications and ensure they are enabled.
+          If no notification appears, open iOS Settings → InnerFire → Notifications and ensure they are enabled.
         </p>
 
         {/* ── DATA ─────────────────────────────────────────────────────── */}
@@ -371,7 +371,7 @@ export default function Settings() {
         {/* ── ABOUT ────────────────────────────────────────────────────── */}
         <SectionLabel label="About" />
         <div className="bg-[#1a1a2e] border border-[#2a2a3e] rounded-2xl px-4 py-4 space-y-1.5">
-          <p className="text-[#6b6880] text-sm">NorthStar v1.0.0</p>
+          <p className="text-[#6b6880] text-sm">InnerFire v1.0.0</p>
           <p className="text-[#6b6880] text-sm">Built for intentional living</p>
           <p className="text-[#6b6880] text-sm">All data stored locally on this device</p>
           <p className="text-[#6b6880] text-sm">No account. No cloud. No tracking.</p>

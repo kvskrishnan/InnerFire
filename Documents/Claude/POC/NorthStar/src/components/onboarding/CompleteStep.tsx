@@ -199,7 +199,7 @@ export default function CompleteStep() {
           You're ready.
         </h1>
         <p className="text-[#6b6880] text-sm leading-relaxed mb-8">
-          Your NorthStar is set. Every day from here is a step toward Future You.
+          Your InnerFire is set. Every day from here is a step toward Future You.
         </p>
 
         {/* Mini Vision Card */}

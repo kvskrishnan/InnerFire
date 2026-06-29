@@ -91,7 +91,7 @@ function buildSpiritLine(why: string): string {
 
 function openDB(): Promise<IDBDatabase | null> {
   return new Promise((resolve) => {
-    const req = indexedDB.open('NorthStarDB', 1)
+    const req = indexedDB.open('InnerFireDB', 1)
     req.onerror = () => resolve(null)
     req.onsuccess = () => resolve(req.result)
   })

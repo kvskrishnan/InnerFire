@@ -66,7 +66,7 @@ export default function MotivationSplash() {
       setGoal({
         id: 'test',
         title: 'Your Goals',
-        why: 'You started NorthStar because you knew you were capable of more. Every notification is a reminder of that decision.',
+        why: 'You started InnerFire because you knew you were capable of more. Every notification is a reminder of that decision.',
         status: 'active',
         pillarId: '',
         sortOrder: 0,

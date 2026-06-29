@@ -48,7 +48,7 @@ export const notificationService = {
     // NOTE: setTimeout only works while the browser tab is open. For persistent
     // scheduling that survives tab close / browser restarts, a Service Worker
     // with the Push API (or Background Sync) is required — that is on the
-    // future roadmap for NorthStar.
+    // future roadmap for InnerFire.
     if (delay > 24 * 60 * 60 * 1000) {
       console.warn(
         '[notificationService] Scheduled time is more than 24 h away. ' +

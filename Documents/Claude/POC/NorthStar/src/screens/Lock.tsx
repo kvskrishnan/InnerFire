@@ -105,7 +105,7 @@ export default function Lock() {
     <div className="min-h-screen bg-[#0f0f1a] text-[#f0ede8] flex flex-col items-center justify-center px-6 gap-8">
       {/* Header */}
       <div className="text-center space-y-3">
-        <p className="text-[#6b6880] text-xs tracking-widest uppercase">✦ NorthStar</p>
+        <p className="text-[#6b6880] text-xs tracking-widest uppercase">✦ InnerFire</p>
         <div>
           <p className="text-[#f0ede8] text-lg font-semibold">Your journal is private.</p>
           <p className="text-[#6b6880] text-sm mt-1">Enter your PIN to continue.</p>

@@ -26,7 +26,7 @@ export default function UpdatePrompt() {
         >
           <div>
             <p className="text-[#f0ede8] text-sm font-semibold">Update available</p>
-            <p className="text-[#6b6880] text-xs">A new version of NorthStar is ready.</p>
+            <p className="text-[#6b6880] text-xs">A new version of InnerFire is ready.</p>
           </div>
           <button
             onClick={reload}

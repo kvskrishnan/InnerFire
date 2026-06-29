@@ -148,7 +148,7 @@ export default function Home() {
 
         {/* 1. Top bar */}
         <div className="flex items-center justify-between mb-6">
-          <span className="text-[#c9a96e] text-sm font-bold tracking-widest">✦ NorthStar</span>
+          <span className="text-[#c9a96e] text-sm font-bold tracking-widest">✦ InnerFire</span>
           <button onClick={handleLock} className="text-[#6b6880] hover:text-[#c9a96e] transition-colors">
             <Lock size={18} />
           </button>

@@ -116,7 +116,7 @@ export default function PinStep({ onNext, onBack, onSkip, currentStep, totalStep
   return (
     <StepLayout
       title="Protect Your Privacy"
-      subtitle="Set a 4-digit PIN to keep your NorthStar private. Your data never leaves this device."
+      subtitle="Set a 4-digit PIN to keep your InnerFire private. Your data never leaves this device."
       onNext={handleNext}
       onBack={onBack}
       nextLabel={phase === 'enter' ? 'Set PIN' : 'Confirm PIN'}

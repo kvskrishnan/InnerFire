@@ -50,7 +50,7 @@ export default function DataManagement() {
       const url = URL.createObjectURL(blob)
       const a = document.createElement('a')
       a.href = url
-      a.download = `northstar-export-${new Date().toISOString().split('T')[0]}.json`
+      a.download = `innerfire-export-${new Date().toISOString().split('T')[0]}.json`
       a.click()
       URL.revokeObjectURL(url)
       setSuccess('✓ Data exported successfully')
@@ -70,7 +70,7 @@ export default function DataManagement() {
       const data = JSON.parse(text)
 
       if (!data.version || !data.userProfile) {
-        setError('This does not appear to be a valid NorthStar export file.')
+        setError('This does not appear to be a valid InnerFire export file.')
         setIsImporting(false)
         return
       }
@@ -143,7 +143,7 @@ export default function DataManagement() {
         <p className="text-[#6b6880] text-xs tracking-widest uppercase mb-3">Export</p>
         <div className="bg-[#1a1a2e] border border-[#2a2a3e] rounded-2xl p-4 mb-6">
           <p className="text-[#f0ede8] text-sm mb-4 leading-relaxed">
-            Export all your NorthStar data as a JSON file.
+            Export all your InnerFire data as a JSON file.
             You can import it later to restore your data.
           </p>
           <GoldButton onClick={handleExport} loading={isExporting} fullWidth>
@@ -182,7 +182,7 @@ export default function DataManagement() {
         <div className="bg-[#1a1a2e] border border-red-900/40 rounded-2xl p-4 mb-6">
           <p className="text-[#f0ede8] font-medium mb-2">Delete all data</p>
           <p className="text-[#6b6880] text-sm mb-4 leading-relaxed">
-            This will permanently erase everything in NorthStar.
+            This will permanently erase everything in InnerFire.
             Your journal, goals, reflections — everything.
             This cannot be undone.
           </p>

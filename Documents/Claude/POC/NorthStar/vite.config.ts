@@ -23,9 +23,9 @@ export default defineConfig({
       devOptions: { enabled: false },
       includeAssets: ['favicon.svg', 'icon-192.svg', 'icon-512.svg'],
       manifest: {
-        name: 'NorthStar',
-        short_name: 'NorthStar',
-        description: "Don't track your habits. Become the person you were meant to be.",
+        name: 'InnerFire',
+        short_name: 'InnerFire',
+        description: "Ignite your identity. Become the person you were meant to be.",
         theme_color: '#1a1a2e',
         background_color: '#0f0f1a',
         display: 'standalone',

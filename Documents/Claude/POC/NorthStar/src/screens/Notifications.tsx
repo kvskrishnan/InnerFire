@@ -80,7 +80,7 @@ export default function Notifications() {
   }
 
   async function handleTestNotification() {
-    await notificationService.showNow('NorthStar', 'Future You is waiting.')
+    await notificationService.showNow('InnerFire', 'Future You is waiting.')
   }
 
   return (
@@ -208,7 +208,7 @@ export default function Notifications() {
               <p className="text-[#f0ede8] text-sm font-medium mb-1">How it works</p>
               <p className="text-[#6b6880] text-xs leading-relaxed">
                 Reminders are scheduled locally. They work while the app is open. For persistent reminders, install
-                NorthStar as an app on your device.
+                InnerFire as an app on your device.
               </p>
             </div>
           </div>

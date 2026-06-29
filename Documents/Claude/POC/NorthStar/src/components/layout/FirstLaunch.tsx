@@ -32,13 +32,12 @@ export default function FirstLaunch({ onBeginJourney }: FirstLaunchProps) {
         transition={{ duration: 0.8, ease: 'easeOut' }}
         className="text-center mb-16"
       >
-        {/* Star icon using unicode */}
-        <div className="text-5xl mb-6">✦</div>
+        <div className="text-6xl mb-4">🔥</div>
         <h1 className="text-4xl font-bold text-[#f0ede8] tracking-tight mb-3">
-          NorthStar
+          InnerFire
         </h1>
         <p className="text-[#6b6880] text-base leading-relaxed max-w-xs mx-auto">
-          Don't track your habits.<br />
+          Ignite your identity.<br />
           <span className="text-[#c9a96e]">Become the person you were meant to be.</span>
         </p>
       </motion.div>

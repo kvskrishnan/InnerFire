@@ -17,7 +17,7 @@ import type {
   SecuritySettings,
 } from './schema'
 
-export class NorthStarDatabase extends Dexie {
+export class InnerFireDatabase extends Dexie {
   userProfile!: Table<UserProfile>
   onboardingProgress!: Table<OnboardingProgress>
   identityStatements!: Table<IdentityStatement>
@@ -35,7 +35,7 @@ export class NorthStarDatabase extends Dexie {
   securitySettings!: Table<SecuritySettings>
 
   constructor() {
-    super('NorthStarDB')
+    super('InnerFireDB')
     this.version(1).stores({
       userProfile: 'id, createdAt',
       onboardingProgress: 'id',
@@ -56,4 +56,4 @@ export class NorthStarDatabase extends Dexie {
   }
 }
 
-export const db = new NorthStarDatabase()
+export const db = new InnerFireDatabase()

@@ -39,7 +39,7 @@ export default function NotificationsStep({ onNext, onBack, currentStep, totalSt
   return (
     <StepLayout
       title="Your Daily Rituals"
-      subtitle="NorthStar will gently remind you to start and end each day with intention."
+      subtitle="InnerFire will gently remind you to start and end each day with intention."
       onNext={handleNext}
       onBack={onBack}
       currentStep={currentStep}
