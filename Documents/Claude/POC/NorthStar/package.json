@@ -12,6 +12,7 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:e2e": "playwright test",
+    "start": "serve dist -p 8080 -s",
     "format": "prettier --write src/"
   },
   "dependencies": {
@@ -53,6 +54,7 @@
     "oxlint": "^1.69.0",
     "postcss": "^8.5.15",
     "prettier": "^3.9.1",
+    "serve": "^14.2.6",
     "tailwindcss": "^3.4.19",
     "typescript": "~6.0.2",
     "vite": "^8.1.0",
