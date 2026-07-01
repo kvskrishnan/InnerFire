@@ -25,6 +25,7 @@ const screens = {
   FlashCards: lazy(() => import('@/screens/FlashCards')),
   MotivationSplash: lazy(() => import('@/screens/MotivationSplash')),
   WeeklyReport: lazy(() => import('@/screens/WeeklyReport')),
+  About: lazy(() => import('@/screens/About')),
 }
 
 function ScreenFallback() {
@@ -60,6 +61,7 @@ export default function AppRoutes() {
         <Route path="/flashcards" element={<screens.FlashCards />} />
         <Route path="/motivation/:goalId" element={<screens.MotivationSplash />} />
         <Route path="/weekly-report" element={<screens.WeeklyReport />} />
+        <Route path="/about" element={<screens.About />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </Suspense>

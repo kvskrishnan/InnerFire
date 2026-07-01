@@ -370,12 +370,19 @@ export default function Settings() {
 
         {/* ── ABOUT ────────────────────────────────────────────────────── */}
         <SectionLabel label="About" />
-        <div className="bg-[#1a1a2e] border border-[#2a2a3e] rounded-2xl px-4 py-4 space-y-1.5">
-          <p className="text-[#6b6880] text-sm">InnerFire v1.0.0</p>
-          <p className="text-[#6b6880] text-sm">Built for intentional living</p>
-          <p className="text-[#6b6880] text-sm">All data stored locally on this device</p>
-          <p className="text-[#6b6880] text-sm">No account. No cloud. No tracking.</p>
-        </div>
+        <button
+          onClick={() => navigate('/about')}
+          className="w-full bg-[#1a1a2e] border border-[#2a2a3e] rounded-2xl px-4 py-4 flex items-center justify-between text-left"
+        >
+          <div className="flex items-center gap-3">
+            <span className="text-xl">🔥</span>
+            <div>
+              <p className="text-[#f0ede8] text-sm font-medium">About InnerFire</p>
+              <p className="text-[#6b6880] text-xs mt-0.5">Our story, philosophy &amp; privacy promise</p>
+            </div>
+          </div>
+          <ArrowLeft size={16} className="text-[#6b6880] rotate-180" />
+        </button>
       </div>
 
       <BottomNav />
